@@ -1,0 +1,56 @@
+#submit{
+    margin-left: 200px;
+}
+#body{
+    margin-left: 50px;
+}
+input{
+    border-top: 5px;
+    border-color: black;
+    border-right: 5px;
+    border-left: 5px;
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+    outline: none;
+}
+#counter{
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.scores{
+    margin-bottom: 30px;
+    flex-direction: row;
+    
+}
+img{
+    height:22px;
+    justify-content: center;
+}
+#label-high{
+    padding-left: 70px;
+}
+#label-score{
+    padding-left: 107px;
+}
+#highScore{
+    font-weight: normal;
+    font-size: initial;
+    transition: all 100ms ease-in-out;
+}
+#stopRestart{
+    flex-direction: row;
+}
+@media (min-width: 450px) {
+    #middleBody{
+    padding-left: 140px;
+    }
+}
+
+

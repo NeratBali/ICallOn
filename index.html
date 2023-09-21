@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I call on</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body id="body">
+    <div id="counter">
+        <button class="btn btn-primary" id="numbers" >
+           START
+        </button>
+    </div>
+    <div class="scores">
+        <label for="score" id="label-score"><strong>Score:</strong></label>
+        <span id="score">0</span>
+        <label for="highScore" id="label-high"><strong>High Score<img src="./Images/vecteezy_golden-crown-for-king-and-queen-and-success-on-transparent_20033057_15.png" alt="image of a crown">:</strong></label>
+        <span id="highScore">0</span>
+    </div>    
+    <form action="">
+        <div id="middleBody">
+            <label for="name"><strong>Name:</strong></label>
+            <input type="text" name="name" id="name" class="input" disabled autocomplete="off"><br><br>
+            <label for="animal"><strong>Animal:</strong></label>
+            <input id="animal" type="text" name="animal" class="input check" disabled autocomplete="off"><br><br>
+            <label for="place"><strong>Place:</strong></label>
+            <input id="place" type="text" name="place" class="input check" disabled autocomplete="off"><br><br>
+            <label for="things"><strong>Things:</strong></label>
+            <input type="text" name="things" id="things" class="input check" disabled autocomplete="off">
+        </div><br><br>
+        <div id="stopRestart">
+            <input type="button" value="Restart" class="btn btn-primary" id="restart" disabled>
+            <input class="btn btn-danger" id="submit" value="STOP" type="submit" disabled>
+        </div>
+    </form>
+    <script src="script.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>
