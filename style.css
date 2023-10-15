@@ -19,14 +19,15 @@ input{
     text-align: center;
     width: 200px;
     height: 60px;
+    margin-left: 160px;
     font-size: 50px;
-    margin-left: 100px;
     margin-bottom: 30px;
     margin-top: 20px;
 }
 .scores{
     margin-bottom: 30px;
     flex-direction: row;
+    text-align: center;
     
 }
 img{
@@ -36,9 +37,6 @@ img{
 #label-high{
     padding-left: 70px;
 }
-#label-score{
-    padding-left: 107px;
-}
 #highScore{
     font-weight: normal;
     font-size: initial;
@@ -47,10 +45,37 @@ img{
 #stopRestart{
     flex-direction: row;
 }
-@media (min-width: 450px) {
+/* @media (min-width: 450px) {
     #middleBody{
     padding-left: 140px;
     }
+} */
+#body{
+    display: flex;
+    justify-content: center;
+}
+#middleBody{
+    /* text-align: center; */
+    padding-left: 150px;
+    display: inline-block;
+}
+.newGame{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#newGame{
+    width: 500px;
+}
+#playerMode{
+    
+    width: fit-content;
+    margin-left:80px ;
+}
+#formNdPlayers{
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
 
